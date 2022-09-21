@@ -1,0 +1,64 @@
+#body {
+    font-family: Comic Sans MS;
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 100%;
+    background-color: rgb(70, 130, 180);
+    color: white;
+    font-size: 150%;
+}
+div#center {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+div.d1 {
+    text-align: center
+}
+h1 {
+    color: rgb(70, 130, 180);
+}
+img.left {
+    float: left;
+    margin-right: 20px;
+}
+div.d2 {
+    color: rgb(70, 130, 180);
+    font-size: 150%;
+}
+div.d3 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 550px;
+}
+div.d4 {
+    padding-top: 30px; 
+    margin-bottom: 150px;
+    font-size: 180%;}
+#cross {
+    float: left; width: 150px;
+}
+#cross2 {
+    float: right; width: 150px;
+}
+div.d5 {
+    text-align: center;
+    margin-bottom: 80px;
+    list-style: inside;
+}
+div.d6 {
+    font-size: 70%;
+    color: rgb(192, 192, 192);
+    text-align: center;
+}
+#color {
+    color: magenta;
+}
+#link {
+    color: rgb(192, 192, 192)
+}
+#ul {
+    list-style-position: inside;
+}

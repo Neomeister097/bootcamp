@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Account Registration</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        .navbar {
+            background-color: #e3fdf2;
+        }
+        body {
+            background-color: rgb(226, 204, 204)
+        }
+        .nav-link:hover {
+            background-color: rgb(226, 204, 204)
+        }
+
+        .nav-link.active {
+            background-color: #28a745
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a 
+                class="navbar-brand"
+                href="restaurant.html"><img src="https://cdn-icons-png.flaticon.com/512/161/161588.png" alt="burger" style="width:35px">Danny's</a>
+            <button 
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-resto">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-resto">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurant.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Order.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="registration.html">Register</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input type="search" class="form-control" placeholder="Are you craving for...?">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="https://media.istockphoto.com/photos/burger-falling-picture-id580121930?k=20&m=580121930&s=612x612&w=0&h=xegzy861KHz9ETXofQRC0fweJnj4ZzOBSAPfI7khYHA%3D&fbclid=IwAR0sIZOhhWiOl72F3Mo-uQIefq8Gpu-KO0q7alXyWDp9yYRt1EPR3OsNXlU" alt="burger" style="width: 100%">
+            </div>
+            <div class="col-lg-8">
+                <form>
+                    <div class="form-group">
+                        <ul>
+                            <li>
+                                <label for="username">Username:</label>
+                                <input 
+                                    type="text"
+                                    class="form-control"
+                                    id="username"
+                                    placeholder="ex. jhon23">
+                            </li>
+                            <li>
+                                <label for="first-name">First name:</label>
+                                <input 
+                                    type="text"
+                                    class="form-control"
+                                    id="first-name"
+                                    placeholder="ex. Jhon">
+                            </li>
+                            <li>
+                                <label for="last-name">Last name:</label>
+                                <input 
+                                type="text"
+                                class="form-control"
+                                id="last-name"
+                                placeholder="ex. Cross">
+                            </li>
+                            <li>
+                                <label for="pwd">Password:</label>
+                                <input 
+                                    type="password"
+                                    class="form-control"
+                                    id="pwd"
+                                    placeholder="no special characters">
+                            </li>
+                            <li>
+                                <label for="con-pwd">Confirm password:</label>
+                                    <input 
+                                        type="password"
+                                        class="form-control"
+                                        id="con-pwd"
+                                        placeholder="password">
+                            </li>
+                            <li>
+                                <label for="gender">Gender:</label>
+                                    <ul class="radio">
+                                        <li><input type="radio"
+                                            name="choose">Male </li>
+                                        <li><input type="radio"
+                                            name="choose">Female
+                                        </li>
+                                        <li><input type="radio"
+                                            name="choose">Other</li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <label for="resto">How many times have you visited our restaurant?</label>
+                                    <ul class="checkbox">
+                                        <li><input 
+                                            
+                                            type="radio"
+                                            name="choose">None at all</li>
+                                        <li><input 
+                                              type="radio"
+                                              name="choose">1-2 times</li>
+                                        <li><input 
+                                            
+                                            type="radio"
+                                            name="choose">3-5 times</li>
+                                        <li><input 
+                                            
+                                            type="radio"
+                                            name="choose">More than 5 times</li>
+                                    </ul>
+                            </li>
+                            <li><label for="address">Address:</Address></label>
+                                <input 
+                                type="text"
+                                class="form-control"
+                                id="address"
+                                placeholder="#123 Pob 4 Dasmarinias Cavite">
+                            </li>
+                            <li><label for="file">Upload account photo:</label> <input id="file" type="file"></button></li>
+                            <li><button type="submit" class="btn btn-outline-success">Submit info</button></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>danny's@gmail.com | +63 956 7960 321</h1>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1">
+                <a href="https://www.facebook.com/neomeister">
+                <img src="fb.png" alt="" style="width: 30%">
+            </a>
+            </div>
+            <div class="col-lg-1">
+                <a href="https://twitter.com/?lang=en">
+                <img src="twtr.png" alt="" style="width: 30%">
+                </a>
+            </div>
+            <div class="col-lg-1">
+                <a href="https://www.instagram.com/neobrucal/">
+                <img src="ig.png" alt="" style="width: 30%">
+                </a>
+            </div>
+            <div class="col-lg-1">
+                <a href="https://www.pinterest.com/neobrucal/">
+                <img src="pint.png" alt="" style="width: 30%">
+                </a>
+            </div>
+            <div class="col-lg-1">
+                <a href="https://www.linkedin.com/login">
+                <img src="li.png" alt="" style="width: 30%">
+                </a>
+            </div>
+            <div class="col-lg-1">
+                <a href="https://www.youtube.com">
+                <img src="yt.png" alt="" style="width: 30%">
+                </a>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</body>
+</html>

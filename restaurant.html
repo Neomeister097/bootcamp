@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .navbar {
+        background-color: #e3fdf2;
+      }
+
+      body {
+        background-color: rgb(226, 204, 204);
+      }
+
+      .nav-link:hover {
+        background-color: rgb(226, 204, 204);
+      }
+
+      .nav-link.active {
+        background-color: #28a745;
+      }
+    </style>
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="restaurant.html"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/161/161588.png"
+            alt="burger"
+            style="width: 35px"
+          />Danny's</a
+        >
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-resto"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-resto">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="restaurant.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Order.html">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registration.html">Register</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Are you craving for...?"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-4">
+      <div class="row">
+        <div
+          id="carousel-captions"
+          class="carousel slide"
+          data-bs-interval="3500"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-captions"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-captions"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-captions"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-captions"
+              data-bs-slide-to="3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="dannysburger.png" class="d-block w-100" alt="danny's burger" />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>The Champ</h1>
+                <p>1/4lb. meat w/ fresh tomato & letuce, sweet pickles w/ a chrunch, chedar slice and smoked onions. Burger of the Champs!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="dannysfc.png" class="d-block w-100" alt="danny's fried chicken" />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Queen's Fried</h1>
+                <p>Brine w/ love and coated by irresitable crunch!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="dannysspag.png" class="d-block w-100" alt="danny's spaghetti" />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Princess Hetty</h1>
+                <p>The sweet and creamy spaghetti your princess always ask.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="dannyspizza.png" class="d-block w-100" alt="danny's pizza" />
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Neapolitan Prince</h1>
+                <p>Pizza made of passion and love. Neapolitan style.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel-captions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel-captions"
+        data-bs-slide="next"
+      >
+        <span class="carouse-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container text-center">
+      <div class="row">
+        <h1>Frequently Asked Questions</h1>
+        <div class="accordion" id="accordion-panel">
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-one">
+                  <button 
+                  class="accordion-button" 
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse-one"
+                  aria-expanded="true"
+                  aria-controls="collapse-one">
+                      WHere are you located?
+              </button>
+              </h2>
+              <div 
+                  id="collapse-one"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-one"
+                  data-bs-parent="accordion-panel">
+                  <div class="accordion-body">
+                      <p>We are located in Taguig, Pasig City, next to St. Joseph Funeral Homes!</p>
+                  </div>
+              </div>
+          </div>
+          <div class="accordion" id="accordion-panel">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-two">
+                    <button 
+                    class="accordion-button" 
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse-two"
+                    aria-expanded="true"
+                    aria-controls="collapse-two">
+                    What times are you open?
+                </button>
+                </h2>
+                <div 
+                    id="collapse-two"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="heading-two"
+                    data-bs-parent="accordion-panel">
+                    <div class="accordion-body">
+                        <p>We are all year round 24/7, except for weekends, holidays, and 9:00 PM - 9:00 AM daily.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordion-panel">
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading-three">
+                      <button 
+                      class="accordion-button" 
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse-three"
+                      aria-expanded="true"
+                      aria-controls="collapse-three">
+                      What food do you offer?
+                  </button>
+                  </h2>
+                  <div 
+                      id="collapse-three"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading-three"
+                      data-bs-parent="accordion-panel">
+                      <div class="accordion-body">
+                          <p>We offer classic American food, such as burgers, hotdogs, spaghetti, Chinese food, adobo, and curry.</p>
+                      </div>
+                  </div>
+              </div>
+      </div>
+    </div>
+    </body>
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>danny's@gmail.com | +63 956 7960 321</h1>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-1">
+          <a href="https://www.facebook.com/neomeister">
+            <img src="fb.png" alt="" style="width: 30%" />
+          </a>
+        </div>
+        <div class="col-lg-1">
+          <a href="https://twitter.com/?lang=en">
+            <img src="twtr.png" alt="" style="width: 30%" />
+          </a>
+        </div>
+        <div class="col-lg-1">
+          <a href="https://www.instagram.com/neobrucal/">
+            <img src="ig.png" alt="" style="width: 30%" />
+          </a>
+        </div>
+        <div class="col-lg-1">
+          <a href="https://www.pinterest.com/neobrucal/">
+            <img src="pint.png" alt="" style="width: 30%" />
+          </a>
+        </div>
+        <div class="col-lg-1">
+          <a href="https://www.linkedin.com/login">
+            <img src="li.png" alt="" style="width: 30%" />
+          </a>
+        </div>
+        <div class="col-lg-1">
+          <a href="https://www.youtube.com">
+            <img src="yt.png" alt="" style="width: 30%" />
+          </a>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+</html>

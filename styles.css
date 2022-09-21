@@ -1,0 +1,160 @@
+body {
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(70, 130, 180);
+    font-size: 150%;
+}
+
+li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li:hover {
+    background-color: rgb(16, 71, 116);
+    
+}
+
+img.banner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 0;
+}
+
+div.ministries {
+    text-align: center;
+}
+
+h1.ministries {
+    color: rgb(70, 130, 180);
+}
+
+div.pastor {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pastor_jpg {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+div.float_text {
+    float: right;
+    display: block;
+    text-align: left;
+}
+
+div.free_hb {
+    color: rgb(70, 130, 180);
+    font-size: 180%;
+}
+
+div.save_hb {
+    padding-top: 30px;
+    margin-bottom: 150px;
+    font-size: 180%;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: magenta;
+}
+
+a:active {
+    color: lime;
+}
+
+div.cross {
+    padding-top: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+img.cross1 {
+    float: left;
+    width: 150px;
+}
+
+img.cross2 {
+    float: right;
+    width: 150px;
+}
+
+div.table_OM {
+    text-align: center;
+    margin-bottom: 80px;
+    list-style-position: inside;
+    border: 1px dotted;
+}
+
+tr:nth-child(even) {
+    background-color: white gray;
+}
+
+table {
+    width: 100%;
+    display: block;
+    border: 1px dotted
+}
+
+td:hover {
+    background-color: rgb(236, 220, 190);
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px
+  }
+
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+div.huell-gallery {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+div.footer {
+    font-size: 70%;
+    color: rgb(192, 192, 192);
+    text-align: center;
+    margin-top: 350px;
+}

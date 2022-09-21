@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(118, 168, 118);
+    background-image: url("images/mickey.gif");
+    background-size: 100%;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 75, 75), rgb(124, 255, 124),  rgb(255, 255, 119))
+}
+
+body{
+    font-size: 140%
+}
+
+ul.list-1 {
+    list-style-type: circle;
+}
+
+ul.list-2{
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+img {
+    width: 30%
+}
+
+table {
+    width: 100%
+}
+
+table, th, td{
+    font-size: 200%;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 20px 20px 20px 20px
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+th {
+    background-color: orange;
+}
+
+tr:nth-child(even){
+    background-color: rgb(184, 184, 184)
+}
+
+td:hover{
+    background-image: url(sf.png);
+    background-color: red
+}
+
+/* img:hover{
+    background-image: url(SF.png)
+} */
